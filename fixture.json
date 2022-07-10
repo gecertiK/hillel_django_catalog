@@ -1,0 +1,92 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$JMD2uFmc1zC3iCSzGPhTNg$gMYKTEwjWbnFqQSZhNymVIAJIodSKhRuYd/TKYktt0Q=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "David",
+        "first_name": "",
+        "last_name": "",
+        "email": "david@david.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-07-09T16:36:50.545Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$h8YE9ujf9UNJJQ7nAhja4j$qZQuMolagGRoUNGmaJ3/K1rgEoAXmyi9ecDB4yfgsSQ=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "Sasha",
+        "first_name": "",
+        "last_name": "",
+        "email": "sasha@sasha.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-07-09T16:37:17.888Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$wxBgR9COiFbmisbieOx0E9$L8pMrnqily1y5cEaHskoP5+mzPlnrPLP6VKPbO6kYf8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "daviskelly",
+        "first_name": "",
+        "last_name": "",
+        "email": "danieljason@powers.net",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-07-09T16:40:36.783Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$AZgEoMsV8SHO9lqSQ6PcXJ$/vlUOy5akKbVaHeo9FVXsJfJrDbcCcgDQkIXNjOXrYo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "heatherjones",
+        "first_name": "",
+        "last_name": "",
+        "email": "ywilliams@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-07-09T16:40:36.960Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$N3cFIMFZ1MqIaGlnGTnMEU$aBzNcXMaV5xrf76Qiy/Ah/rIXjKEPAAnnsxwMU4eDDE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "caitlin09",
+        "first_name": "",
+        "last_name": "",
+        "email": "sarah96@johnson-cruz.biz",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-07-09T16:40:37.136Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
