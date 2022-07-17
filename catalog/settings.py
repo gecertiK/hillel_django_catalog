@@ -41,7 +41,7 @@ INSTALLED_APPS = [
 
     'django_extensions',
 
-    'django_catalog',
+    'catalog_app',
     'triangle',
 ]
 
