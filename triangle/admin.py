@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from triangle.models import Person, Log
+from triangle.models import Log, Person
 
 
 class PersonAdmin(admin.ModelAdmin):

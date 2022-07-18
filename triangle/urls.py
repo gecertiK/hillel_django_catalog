@@ -1,6 +1,6 @@
 from django.urls import path
 
-from triangle.views import PersonIndexView, get_form, person_create_form, person_update_form, first_page
+from triangle.views import PersonIndexView, first_page, get_form, person_create_form, person_update_form
 
 app_name = 'triangle'
 urlpatterns = [
@@ -10,4 +10,3 @@ urlpatterns = [
     path('person/', person_create_form, name='person_create_form'),
     path('person/<int:pk>/', person_update_form, name='person_update_form'),
 ]
-
