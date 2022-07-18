@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Person Form</title>
+</head>
+<body>
+    <form action="{% url 'triangle:person_create_form' %}" method="post">
+        {% csrf_token %}
+        {{ person_form.as_p }}
+        <input type="submit" name="submit" value="OK">
+    </form>
+    <p><a href="{% url 'first-page' %}">Back to links page</a></p>
+</body>
+</html>
