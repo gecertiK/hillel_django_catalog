@@ -8,11 +8,12 @@
     <h1>Hypotenuse Calculator</h1>
     <form action="{% url 'triangle:triangle' %}" method="get">
         {{ get_form.as_p }}
-        <input type="submit" name="submit" value="=">
+        <input type='submit' name='submit' value='='>
     </form>
     {% if hypotenuse %}
         <p>The hypotenuse is {{ hypotenuse }}</p>
     {% endif %}
     <p><a href="{% url 'triangle:triangle' %}">Clear</a></p>
+    <p><a href="{% url 'first-page' %}">Back to links page</a></p>
 </body>
 </html>
