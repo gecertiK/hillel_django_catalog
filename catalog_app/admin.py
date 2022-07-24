@@ -1,6 +1,6 @@
-from django.contrib import admin
+from catalog_app.models import Client, Product, Retailer, Town
 
-from catalog_app.models import Town, Client, Product, Retailer
+from django.contrib import admin
 
 
 @admin.register(Town)
@@ -10,7 +10,7 @@ class TownAdmin(admin.ModelAdmin):
 
 @admin.register(Client)
 class ClientAdmin(admin.ModelAdmin):
-    list_display = ("first_name","last_name", "town")
+    list_display = ("first_name", "last_name", "town")
     search_fields = ["first_name", "last_name"]
     filter_vertical = ["product"]
 
