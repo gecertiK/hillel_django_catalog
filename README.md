@@ -11,3 +11,4 @@ Fourth step - create the app (python manage.py startapp <app_name>) and add to  
 Fifth step - commit/push to git.
 
 Your development environment is ready.
+![img.png](img.png)
